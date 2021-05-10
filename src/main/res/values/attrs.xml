@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="title" format="string" />
+    <attr name="lineCellViewStyle" format="reference" />
+
+    <declare-styleable name="ButtonCellView">
+        <attr name="labelIcon" format="reference" />
+        <attr name="valueIconPadding" format="dimension" />
+        <attr name="labelText" format="string" />
+        <attr name="valueText" format="string" />
+    </declare-styleable>
+
+</resources>

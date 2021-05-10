@@ -1,0 +1,5 @@
+rootProject.children.each { project ->
+    project.buildFileName = "${project.name.toLowerCase()}.gradle"
+}
+
+rootProject.name = "primerLibrary"

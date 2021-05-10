@@ -1,0 +1,19 @@
+{
+    "token": "RSY62p4GREqdc_G9Bpmk1HwxNjIwNTYzOTk4",
+    "tokenType": "SINGLE_USE",
+    "paymentInstrumentType": "PAYPAL_ORDER",
+    "analyticsId": "3jV0x4adWdOnQS3yZlXlfXVS",
+    "paymentInstrumentData": {
+        "paypalOrderId": "1",
+        "externalPayerInfo": null,
+        "paypalStatus": null
+    },
+    "vaultData": null,
+    "threeDSecureAuthentication": {
+        "responseCode": "NOT_PERFORMED",
+        "reasonCode": null,
+        "reasonText": null,
+        "protocolVersion": null,
+        "challengeIssued": null
+    }
+}

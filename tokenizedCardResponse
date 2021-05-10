@@ -1,0 +1,29 @@
+ {
+ "token": "3w-hNunURGKFXc9NLzcBenwxNjIwNDE0NTEy",
+    "tokenType": "SINGLE_USE",
+    "paymentInstrumentType": "PAYMENT_CARD",
+    "analyticsId": "-NxZbWYcXPiRMynOCdzu2G5L",
+    "paymentInstrumentData": {
+        "last4Digits": "1111",
+        "expirationMonth": "03",
+        "expirationYear": "2030",
+        "cardholderName": "J Doe",
+        "network": "Visa",
+        "isNetworkTokenized": false,
+        "binData": {
+            "network": "VISA",
+            "issuerCountryCode": "US",
+            "issuerName": "JPMORGAN CHASE BANK, N.A.",
+            "issuerCurrencyCode": null,
+            "regionalRestriction": "UNKNOWN",
+            "accountNumberType": "UNKNOWN",
+            "accountFundingType": "UNKNOWN",
+            "prepaidReloadableIndicator": "NOT_APPLICABLE",
+            "productUsageType": "UNKNOWN",
+            "productCode": "VISA",
+            "productName": "VISA"
+        }
+    },
+    "vaultData": null,
+    "threeDSecureAuthentication": null
+    }
