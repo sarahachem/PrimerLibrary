@@ -66,6 +66,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
+apply plugin: 'maven'
+apply plugin: 'maven-publish'
 
 
 sourceCompatibility = JavaVersion.VERSION_11
@@ -133,3 +135,23 @@ dependencies {
 
 }
 
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+
+                groupId = 'com.primer'
+                artifactId = 'final'
+                version = '1.0'
+            }
+            debug(MavenPublication) {
+                from components.debug
+
+                groupId = 'com.primer'
+                artifactId = 'final-debug'
+                version = '1.0'
+            }
+        }
+    }
+}
