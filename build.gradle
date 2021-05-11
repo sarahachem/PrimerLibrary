@@ -1,39 +1,4 @@
 buildscript {
-    ext.versions = [
-            'kotlin'        : '1.5.0',
-            'kotlinx'       : '1.5.0',
-            'support'       : '27.1.1',
-            'markwonVersion': '2.0.1',
-    ]
-    ext.deps = [
-            kotlin      : [
-                    'stdlib'           : "org.jetbrains.kotlin:kotlin-stdlib:${versions.kotlin}",
-                    'coroutines'       : "org.jetbrains.kotlinx:kotlinx-coroutines-core:${versions.kotlinx}",
-                    'coroutinesAndroid': "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.kotlinx}"
-            ],
-            misc        : [
-                    'jodaTime': 'joda-time:joda-time:2.9.9'
-            ],
-            jetpack     : [
-                    'appCompat'          : "androidx.appcompat:appcompat:1.0.0",
-                    'material'           : "com.google.android.material:material:1.1.0-alpha10",
-                    'recyclerView'       : "androidx.recyclerview:recyclerview:1.1.0",
-                    'constraintLayout'   : "androidx.constraintlayout:constraintlayout:2.0.0-beta4",
-                    'coreKtx'            : "androidx.core:core-ktx:1.2.0-rc01",
-                    'lifecycleExtensions': "androidx.lifecycle:lifecycle-extensions:2.0.0",
-                    'lifecycleCompiler'  : "androidx.lifecycle:lifecycle-compiler:2.0.0",
-            ],
-            network     : [
-                    'okhttp'             : 'com.squareup.okhttp:okhttp:2.7.5',
-                    'okhttpUrlconnection': 'com.squareup.okhttp:okhttp-urlconnection:2.7.5',
-                    'retrofit'           : 'com.squareup.retrofit:retrofit:1.9.0',
-                    'gson'           : 'com.squareup.retrofit2:converter-gson:2.3.0'
-            ],
-            test        : [
-                    'junit'            : 'junit:junit:4.12',
-            ]
-    ]
-
     repositories {
         google()
         jcenter()
@@ -124,13 +89,9 @@ dependencies {
     implementation("com.google.accompanist:accompanist-insets:0.8.1")
     implementation("com.squareup.retrofit2:retrofit:2.3.0")
     implementation("com.squareup.retrofit2:converter-gson:2.3.0")
-    implementation("com.squareup.okhttp3:logging-interceptor:3.8.0")
     implementation("joda-time:joda-time:2.9.9")
 
     testImplementation("junit:junit:4.+")
-    testImplementation("org.mockito:mockito-core:3.7.0")
-    testImplementation("io.mockk:mockk:1.10.6")
-
     androidTestImplementation("androidx.test.ext:junit:1.1.2")
 
 }
