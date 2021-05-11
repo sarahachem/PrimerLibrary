@@ -15,3 +15,11 @@ We also want to help you create a UI with compose, the newest favorite for Andro
 
 To publish a new version of the library, just commit the code, create a new release with a new tag on github, check if the new release if successful on 
 https://jitpack.io/#sarahachem/PrimerLibrary and update the tag number in the  app using the libary !
+
+
+The project contains a set of JUnit tests, that can be executed with the following command:
+
+`./gradlew testDebugUnitTest`
+
+
+
